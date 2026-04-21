@@ -14,7 +14,7 @@ var url = document.referrer;
 if(url.indexOf('/')>0) url=url.split('/')[2];
 
 var arydomain = new Array(
-	"www.sjg8.com",
+	"wangtongxue.cn",
 	"vip.xilibo.com"
 	);
 var b=false;
