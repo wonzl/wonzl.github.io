@@ -1,0 +1,13 @@
+# 带哈希的静态资源（JS/CSS/图片）长缓存
+/_next/static/*
+/static/*
+/*.js
+/*.css
+/*.png
+/*.jpg
+/*.svg
+  Cache-Control: public, max-age=31536000, immutable
+
+# HTML 页面优化缓存（解决默认 max-age=0 导致的重复请求）
+/*
+  Cache-Control: public, max-age=86400, must-revalidate
