@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Gpedit on 王同学</title><link>https://blog.wangtongxue.cn/tags/gpedit/</link><description>Recent content in Gpedit on 王同学</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 24 Oct 2026 20:19:18 +0800</lastBuildDate><atom:link href="https://blog.wangtongxue.cn/tags/gpedit/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows家庭版找不到组策略gpedit.msc的解决方法</title><link>https://blog.wangtongxue.cn/p/gpedit/</link><pubDate>Sat, 24 Oct 2026 20:19:18 +0800</pubDate><guid>https://blog.wangtongxue.cn/p/gpedit/</guid><description>&lt;ol&gt;
+&lt;li&gt;在桌面新建文本文档，将以下代码复制进去，点文件 - 另存为 - 文件名&amp;quot;gpedit.bat&amp;quot;，保存类型选择“所有文件”，编码选择&amp;quot;ANSI&amp;quot; - 保存。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bat" data-lang="bat"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;@&lt;span style="color:#ff79c6"&gt;echo&lt;/span&gt; off
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ff79c6"&gt;pushd&lt;/span&gt; &lt;span style="color:#f1fa8c"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#8be9fd;font-style:italic"&gt;%~dp0&lt;/span&gt;&lt;span style="color:#f1fa8c"&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ff79c6"&gt;dir&lt;/span&gt; /b &lt;span style="color:#8be9fd;font-style:italic"&gt;%systemroot%&lt;/span&gt;\Windows\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~3*.mum &amp;gt;gp.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ff79c6"&gt;dir&lt;/span&gt; /b &lt;span style="color:#8be9fd;font-style:italic"&gt;%systemroot%&lt;/span&gt;\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-Package~3*.mum &amp;gt;&amp;gt;gp.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ff79c6"&gt;for&lt;/span&gt; &lt;span style="color:#ff79c6"&gt;/f&lt;/span&gt; &lt;span style="color:#f1fa8c"&gt;%%&lt;/span&gt;i &lt;span style="color:#ff79c6"&gt;in&lt;/span&gt; (&lt;span style="color:#f1fa8c"&gt;&amp;#39;findstr /i . gp.txt 2^&amp;gt;nul&amp;#39;&lt;/span&gt;) &lt;span style="color:#ff79c6"&gt;do&lt;/span&gt; dism /online /norestart /add-package:&lt;span style="color:#f1fa8c"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#8be9fd;font-style:italic"&gt;%systemroot%&lt;/span&gt;&lt;span style="color:#f1fa8c"&gt;\servicing\Packages\&lt;/span&gt;&lt;span style="color:#f1fa8c"&gt;%%&lt;/span&gt;&lt;span style="color:#f1fa8c"&gt;i&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#ff79c6"&gt;pause&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start="2"&gt;
+&lt;li&gt;找到桌面上刚刚保存的&amp;quot;gpedit.bat&amp;quot;，右击以管理员身份运行，如果弹出“是否允许应用对你的设备进行更改”，选择“是”，程序运行完成即可。&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>
