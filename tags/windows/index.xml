@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Windows on 王同学</title><link>https://blog.wangtongxue.cn/tags/windows/</link><description>Recent content in Windows on 王同学</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 24 Oct 2026 20:19:18 +0800</lastBuildDate><atom:link href="https://blog.wangtongxue.cn/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows家庭版找不到组策略gpedit.msc的解决方法</title><link>https://blog.wangtongxue.cn/p/gpedit/</link><pubDate>Sat, 24 Oct 2026 20:19:18 +0800</pubDate><guid>https://blog.wangtongxue.cn/p/gpedit/</guid><description>&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Windows on 王同学</title><link>https://blog.wangtongxue.cn/tags/windows/</link><description>Recent content in Windows on 王同学</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 24 Oct 2026 20:19:18 +0800</lastBuildDate><atom:link href="https://blog.wangtongxue.cn/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows家庭版找不到组策略gpedit.msc的解决方法</title><link>https://blog.wangtongxue.cn/p/gpedit/</link><pubDate>Sat, 24 Oct 2026 20:19:18 +0800</pubDate><guid>https://blog.wangtongxue.cn/p/gpedit/</guid><description>&lt;p&gt;Windows 10/11 家庭版默认不带 gpedit.msc（本地组策略编辑器），专业版、企业版才有。Win+R 输入 gpedit.msc → 提示找不到文件，就是这个情况。以下是解决办法：&lt;/p&gt;
+&lt;ol&gt;
 &lt;li&gt;在桌面新建文本文档，将以下代码复制进去，点文件 - 另存为 - 文件名&amp;quot;gpedit.bat&amp;quot;，保存类型选择“所有文件”，编码选择&amp;quot;ANSI&amp;quot; - 保存。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class="highlight"&gt;&lt;div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
@@ -27,5 +28,4 @@
 &lt;li&gt;找到桌面上刚刚保存的&amp;quot;gpedit.bat&amp;quot;，右击以管理员身份运行，如果弹出“是否允许应用对你的设备进行更改”，选择“是”，程序运行完成即可。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
-&lt;p&gt;注意：部分最新的Win11 25H2等新版本家庭版，该脚本可能会出现执行失败的情况，这种场景下更推荐直接升级专业版。&lt;/p&gt;
-&lt;/blockquote&gt;</description></item></channel></rss>
+&lt;p&gt;注意：部分最新的Win11 25H2等新版本家庭版，该脚本可能会出现执行失败的情况，这种场景下更推荐直接升级专业版。&lt;/p&gt;</description></item></channel></rss>
