@@ -26,7 +26,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;ol start="2"&gt;
 &lt;li&gt;找到桌面上刚刚保存的&amp;quot;gpedit.bat&amp;quot;，右击以管理员身份运行，如果弹出“是否允许应用对你的设备进行更改”，选择“是”，程序运行完成即可关闭窗口。&lt;/li&gt;
-&lt;li&gt;键盘按下Win+R，输入 gpedit.msc ，回车即可打开组策略&lt;/li&gt;
+&lt;li&gt;键盘按下Win+R，输入 gpedit.msc ，回车即可打开组策略。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
 &lt;p&gt;注意：部分最新的Win11 25H2等新版本家庭版，该脚本可能会出现执行失败的情况，这种场景下更推荐直接升级专业版。&lt;/p&gt;</description></item></channel></rss>
