@@ -232,7 +232,7 @@
 &lt;p&gt;精简包 LetvUpgrade_4K2K-beta&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="刷机操作"&gt;刷机操作&lt;/h2&gt;
+&lt;h2 id="刷机操作流程"&gt;刷机操作流程&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;下载好固件，刷机文件“ LetvUpgrade_4K2K.bin”一定要拷贝到U盘的“根目录”下，不可以放到其他文件夹内，否则无法识别刷机包；&lt;/p&gt;
@@ -285,7 +285,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;备注：强制升级会清除电视内所有数据，例如：本地照片、视频、安装的应用、账号信息等，请注意数据备份，单机游戏存档无法恢复，非乐视应用商店、游戏大厅下载的APP无法恢复；&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id="精简刷机包特色"&gt;精简刷机包特色&lt;/h3&gt;
+&lt;h2 id="精简刷机包特色"&gt;精简刷机包特色&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;去除了乐视的开机广告&lt;/li&gt;
 &lt;li&gt;去除乐视桌面推送的广告&lt;/li&gt;
@@ -296,7 +296,7 @@
 &lt;li&gt;去除了广电对应用安装的管控&lt;/li&gt;
 &lt;li&gt;去除了后台升级应用，开机下载广告、系统升级&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="进阶玩家修改应用图标以及背景图"&gt;进阶玩家：修改应用图标以及背景图&lt;/h3&gt;
+&lt;h2 id="进阶玩家修改应用图标以及背景图"&gt;进阶玩家：修改应用图标以及背景图&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;如何修改应用界面，应用界面位置为”/system/plugin/com.stv.plugin.app.apk”，可以使用别人制作好的应用插件替换内置的插件。&lt;/li&gt;
 &lt;li&gt;应用桌面的五个固定应用是根据需要自己安装的，如果你不喜欢可以不安装，它只是一个图标。如果动手能力强的可以解包自行修改替换图标和对应的快捷方式，甚至更换背景图片。&lt;/li&gt;
