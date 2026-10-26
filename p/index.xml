@@ -177,7 +177,7 @@
 &lt;li&gt;一台电脑&lt;/li&gt;
 &lt;li&gt;下载好刷机需要的固件&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="刷机文件说明"&gt;刷机文件说明&lt;/h3&gt;
+&lt;h2 id="刷机文件说明"&gt;刷机文件说明&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;原厂包 LetvUpgrade6.0.072N.bin 官方提供的全分区eui6.0.072N版的强制升级包&lt;/li&gt;
 &lt;li&gt;精简包 LetvUpgrade-beta6.bin 基于官方eui6.0.072N版本制作的，只包含system、tvconfig分区的精简刷机包&lt;/li&gt;
