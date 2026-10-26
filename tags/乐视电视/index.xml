@@ -61,7 +61,7 @@
 &lt;p&gt;将光标移动到apply update from external storage，选中确定，然后会出现U盘列表（一般情况下是no name）&lt;/p&gt;</description></item><item><title>乐视电视超3X55等928芯片系列精简官改刷机包eui6.0</title><link>https://blog.wangtongxue.cn/p/letv-928/</link><pubDate>Tue, 15 Sep 2026 21:53:33 +0800</pubDate><guid>https://blog.wangtongxue.cn/p/letv-928/</guid><description>&lt;p&gt;乐视第三代超级928芯片电视官改刷机固件eui6.0（蓝同学），去除广告，安装限制。&lt;/p&gt;
 &lt;h2 id="适用乐视电视型号"&gt;适用乐视电视型号&lt;/h2&gt;
 &lt;p&gt;本文适用于乐视超3系列电视928芯片，具体电视型号为超3 X50、超3 X55、超3 X55 pro、超3-X65、X65、X40S、X43S、X49、超级电视 Max120、S40升级主板s40pro、S50升级主板s50pro的电视。&lt;/p&gt;
-&lt;h3 id="刷机包版本更新说明"&gt;刷机包版本更新说明&lt;/h3&gt;
+&lt;h2 id="刷机包版本更新说明"&gt;刷机包版本更新说明&lt;/h2&gt;
 &lt;p&gt;此版本为lemod系列的升级版本&lt;/p&gt;
 &lt;p&gt;2019年3月7日升级如下：&lt;/p&gt;
 &lt;ol&gt;
@@ -87,14 +87,14 @@
 &lt;p&gt;桌面插件更换&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id="准备工作"&gt;准备工作&lt;/h3&gt;
+&lt;h2 id="准备工作"&gt;准备工作&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;刷机有风险，操作需谨慎！&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;一个U盘（usb2.0、FAT32、16G及以下、不能是PE系统盘）&lt;/li&gt;
 &lt;li&gt;一台电脑&lt;/li&gt;
 &lt;li&gt;下载好刷机需要的固件&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="刷机包文件说明"&gt;刷机包文件说明&lt;/h3&gt;
+&lt;h2 id="刷机包文件说明"&gt;刷机包文件说明&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;LetvUpgrade928底包.bin &lt;strong&gt;第一步务必要先刷入这个底包&lt;/strong&gt;，然后再刷recovery（原帖没有详细说明，以前踩过坑）&lt;/p&gt;
@@ -108,10 +108,10 @@
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="首先第一步先刷入底包"&gt;首先第一步先刷入底包&lt;/h3&gt;
+&lt;h2 id="首先第一步先刷入底包"&gt;首先第一步先刷入底包&lt;/h2&gt;
 &lt;p&gt;先将你的电视恢复出厂设置，然后关机。&lt;/p&gt;
 &lt;p&gt;将 LetvUpgrade928底包.bin 重命名为 LetvUpgrade928.bin 放入U盘根目录，参照下方“刷入recovery 步骤”，不同的是进度条走的慢一点，刷完底包，开机后到设置向导那个界面就关机。然后继续下面的操作，刷入recovery。&lt;/p&gt;
-&lt;h3 id="选择适合自己机型的recovery"&gt;选择适合自己机型的recovery&lt;/h3&gt;
+&lt;h2 id="选择适合自己机型的recovery"&gt;选择适合自己机型的recovery&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;1080P屏幕的设备（X40S、X43S、S40升级主板s40pro、S50升级主板s50pro等）&lt;/p&gt;
@@ -124,7 +124,7 @@
 &lt;p&gt;使用LetvUpgrade928_10M.bin的recovery刷机时只能使用4k刷机方案。（有recovery界面，手动操作。可以进入recovery进行刷机前的恢复出厂设置）&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="刷入recovery-步骤"&gt;刷入recovery 步骤&lt;/h3&gt;
+&lt;h2 id="刷入recovery-步骤"&gt;刷入recovery 步骤&lt;/h2&gt;
 &lt;p&gt;将你选择的 LetvUpgrade928_10M.bin 或者 LetvUpgrade928_9M.bin，文件重命名为 LetvUpgrade928.bin，放入U盘根目录，将U盘插入电视的顶部USB2.0接口。&lt;/p&gt;
 &lt;p&gt;以下A、B两种操作方案任选，A方案不行的可以试试B方案。&lt;/p&gt;
 &lt;ul&gt;
