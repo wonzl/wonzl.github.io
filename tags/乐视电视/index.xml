@@ -139,7 +139,7 @@
 &lt;p&gt;B方案 不用或者没有遥控器，设备关机情况下&lt;/p&gt;</description></item><item><title>乐视电视S50air等918芯片系列精简官改刷机包</title><link>https://blog.wangtongxue.cn/p/letv-918/</link><pubDate>Sun, 13 Sep 2026 21:21:57 +0800</pubDate><guid>https://blog.wangtongxue.cn/p/letv-918/</guid><description>&lt;p&gt;乐视918芯片官改精简刷机固件（蓝同学版），去除广告和安装限制，可删除或者自定义开机视频。&lt;/p&gt;
 &lt;h2 id="适用乐视电视型号"&gt;适用乐视电视型号&lt;/h2&gt;
 &lt;p&gt;本文适用于乐视电视918芯片 &lt;strong&gt;非4K2K版本&lt;/strong&gt;，屏幕为1080P，具体型号为：S40 Air 全配版、S40 Air 郭敬明·小时代版、S40Air 2015、S40Air-L全配、S40Air-L小时代、S40Air-L 2015、S40 Air 2015（SDP）、(X3-40取消蓝牙板)、S50Air 2D全配、50Air 2D C罗足球、S50Air AUO、S50Air 2D芈月版、S50Air 3D全配、S50Air 3D C罗足球、超3 X40、超3 X40芈月传、S43Air、超3 X43、超3 X43芈月传的电视。&lt;/p&gt;
-&lt;h3 id="准备工作"&gt;准备工作&lt;/h3&gt;
+&lt;h2 id="准备工作"&gt;准备工作&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;刷机有风险，操作需谨慎！&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;一个U盘（usb2.0、FAT32、16G及以下、不能是PE系统盘）&lt;/li&gt;
@@ -175,7 +175,7 @@
 &lt;p&gt;进度条走完后，电视会重新进入待机模式。用遥控器开机即可，此时刷机完成。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id="精简刷机包特色"&gt;精简刷机包特色&lt;/h3&gt;
+&lt;h2 id="精简刷机包特色"&gt;精简刷机包特色&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;去除了乐视的开机广告自动更新广告，固定为乐视广告。&lt;/p&gt;
@@ -199,7 +199,7 @@
 &lt;p&gt;去除了广电对应用安装的管控&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="玩机小技巧"&gt;玩机小技巧&lt;/h3&gt;
+&lt;h2 id="玩机小技巧"&gt;玩机小技巧&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;如何修改应用界面，应用界面位置为”/system/plugin/com.stv.plugin.app.apk”，可以使用别人制作好的应用插件替换内置的插件。&lt;/p&gt;
