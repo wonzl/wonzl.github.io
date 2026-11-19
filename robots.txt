@@ -19,4 +19,4 @@ User-agent: YouBot
 User-agent: AI2Bot
 Disallow: /
 
-Sitemap: https://blog.wangtongxue.cn/sitemap.xml
+Sitemap: https://wangtongxue.cn/sitemap.xml
